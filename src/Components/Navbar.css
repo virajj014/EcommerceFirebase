@@ -1,0 +1,109 @@
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.LeftContainer img {
+    width: 100px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+
+nav button {
+    margin: 1px 5px;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 5px;
+}
+
+nav button:hover {
+    background-color: white;
+    color: #ffbb00;
+    border-radius: 10px;
+}
+
+.cart-icon-css {
+    color: white;
+}
+
+.cart-btn {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.cart-btn img {
+    width: 30px;
+    height: fit-content;
+}
+
+.cart-icon-css {
+    background-color: rgb(255, 187, 0);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    position: relative;
+    top: 3px;
+    right: 8px;
+    text-decoration: none;
+}
+
+.cart-icon-css:hover {
+    background-color: white;
+    color: rgb(33, 33, 33);
+    cursor: pointer;
+}
+
+.profile-icon {
+    width: 30px;
+    padding-right: 10px;
+
+}
+
+.logout-btn {
+    background-color: rgb(255, 187, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+}
+
+.logout-btn:hover {
+    background-color: white;
+    color: rgb(255, 187, 0);
+    cursor: pointer;
+}
+
+
+.product-types {
+    background-color: #ffbb00;
+    display: flex;
+    justify-content: center;
+}
+
+
+.product-types button {
+    background-color: #ffbb00;
+    padding: 0px 5px;
+    margin: 8px 15px;
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+.product-types button:hover {
+    background-color: white;
+    color: black;
+    font-weight: 600;
+}

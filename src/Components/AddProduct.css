@@ -1,0 +1,86 @@
+.addprod-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.addprod-form {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 10px;
+    width: 600px;
+    /* background-color: rgb(78, 78, 78); */
+}
+
+.addprod-form p {
+    font-size: 25px;
+    /* border: 1px solid black; */
+    margin: 0px;
+}
+
+.addprod-form label {
+    padding: 0px;
+    margin-top: 5px;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.addprod-form input {
+    margin: 2px 0px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 2px solid rgb(154, 154, 154);
+    font-size: 13px;
+}
+
+.addprod-form textarea {
+    margin: 2px 0px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 2px solid rgb(154, 154, 154);
+    font-size: 13px;
+}
+
+.addprod-form input:focus {
+    outline: 2px solid orange;
+    border: none;
+}
+
+.addprod-form button {
+    background-color: rgb(255, 176, 29);
+    margin: 10px 0px;
+    border: none;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.addprod-form button:hover {
+    background-color: black;
+    color: rgb(255, 176, 29);
+    cursor: pointer;
+}
+
+.success-msg {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(229, 255, 228);
+    padding: 10px;
+    border-radius: 10px;
+    color: green;
+}
+
+.error-msg {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(255, 228, 228);
+    color: red;
+    padding: 10px;
+    border-radius: 10px;
+}
